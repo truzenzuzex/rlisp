@@ -4,7 +4,7 @@ rlisp is a simple CL-Lisp evaluator written in Rust.
 
 ## Installation ##
 
-$ git clone...
+$ git clone https://github.com/truzenzuzex/rlisp
 
 ## Quick start ##
 
