@@ -1,0 +1,20 @@
+[package]
+name = "lex"
+version = "0.0.0"
+
+rust-version.workspace = true
+edition.workspace = true
+
+[lib]
+doctest = false
+
+[dependencies]
+# local crates
+env.workspace = true
+err.workspace  = true
+expr.workspace = true
+hash.workspace = true
+pars_symb.workspace  = true
+
+# non-local crates
+regex.workspace = true
