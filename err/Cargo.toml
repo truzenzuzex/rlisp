@@ -1,0 +1,12 @@
+[package]
+name = "err"
+version = "0.0.0"
+
+rust-version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# local crates
+pars_symb.workspace = true
+
+# non-local crates
