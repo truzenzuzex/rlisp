@@ -1,0 +1,15 @@
+[package]
+name = "pars_symb"
+version = "0.0.0"
+
+rust-version.workspace = true
+edition.workspace = true
+
+[lib]
+doctest = false
+
+[dependencies]
+# local crates
+hash.workspace = true
+
+# non-local crates
