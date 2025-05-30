@@ -21,7 +21,7 @@ fn main() {
     let mut rl = RLEvaluator::new();
     rl.init();
 
-    println!("RLisp Version 0.1.0");
+    println!("RLisp Version 0.0.1");
     println!("Press Crtl+c to exit");
     println!("");
 
