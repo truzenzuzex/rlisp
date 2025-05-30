@@ -1,0 +1,26 @@
+[workspace]
+members = ["cl", "env", "err", "eval", "expr",
+           "hash", "lex", "pars_symb", "pars",
+           "rlisp",]
+resolver = "2"
+exclude = ["readme", "recycle"]
+
+[workspace.package]
+rust-version = "1.87"
+edition = "2024"
+
+[workspace.dependencies]
+# local crates
+cl        = { path = "./cl",    version = "0.0.0" }
+env       = { path = "./env",   version = "0.0.0" }
+err       = { path = "./err",   version = "0.0.0" }
+eval      = { path = "./eval",  version = "0.0.0" }
+expr      = { path = "./expr",  version = "0.0.0" }
+hash      = { path = "./hash",  version = "0.0.0" }
+lex       = { path = "./lex",   version = "0.0.0" }
+pars_symb = { path = "./pars_symb", version = "0.0.0" }
+pars      = { path = "./pars", version = "0.0.0" }
+
+# non-local crates
+rand = "0.8.5"
+regex = "1.7.0"
