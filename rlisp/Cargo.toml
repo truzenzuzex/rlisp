@@ -1,0 +1,15 @@
+[package]
+name = "rlisp"
+version = "0.1.0"
+
+rust-version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# local crates
+env.workspace = true
+eval.workspace = true
+expr.workspace = true
+pars.workspace = true
+
+# non-local crates
